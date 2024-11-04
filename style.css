@@ -1,0 +1,85 @@
+
+.Resume{
+    background-color: antiquewhite;
+    width: 700px;
+    margin: auto;
+    padding: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(82, 79, 79);
+
+}
+#image{
+    border: rgb(33, 21, 21) solid 5px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+#profile{
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+    
+}
+h1{
+    /* text-decoration: underline; */
+    width: 300px;
+    /* align-self: flex-start; */
+    border: black solid;
+    text-align: center;
+    
+    
+}
+section{
+    color: black;
+    font-size: 23px;
+    margin: 10px 0px 10px 10px;
+    width: 300px;
+    /* align-self: flex-start; */
+    margin-left: 35px;
+
+} 
+ #heading{
+    text-decoration: underline;
+    margin-left:2px ;
+    font-weight: bold;
+}
+#heading #subheading{
+    font-size: 23px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+
+li{
+    color: black;
+    font-size: 23px;
+    margin-top: 5px;
+    width: 300px;
+    text-decoration: underline;
+    
+}
+
+.togglebutton{
+    border-radius:4px ;
+    border: 1px rgb(57, 58, 58) solid;
+     width: 120px;
+     text-align: center;
+
+    /* font-weight: bolder; */
+    font-size: 20px;
+    
+}
+.togglebutton:hover{
+    background-color: rgba(20, 41, 51, 0.747);
+    border: 2px lightslategray solid;
+    color: azure;
+}
+
+#underline{
+    text-decoration: none;
+}
